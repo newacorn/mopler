@@ -35,7 +35,7 @@ func main() {
     )
     //获取用户信息
     u, _ := sdk.ApiUserInfo.UserInfo()
-    mopler.PrintToJSON(u.Errmsg)
+    mopler.PrintToJSON(u)
 }
 ```
 
